@@ -1,0 +1,74 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+.panel-features {
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.panel-features:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.panel-features .panel-heading {
+  padding: 20px 10px;
+}
+.panel-features .panel-heading .fa {
+  margin-top: 10px;
+  font-size: 58px;
+}
+.panel-features .list-group-item {
+  color: #000000;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+.panel-features .list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel-features .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.panel-features .panel-body {
+  background-color: #f0f0f0;
+  font-size: 40px;
+  color: #777777;
+  padding: 20px;
+  margin: 0px;
+}
+
+/*modal */
+body {
+    padding-top: 20px;
+    
+}
+
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 
+
+/* Panels 
+.panel-primary {
+  border-color: #8b2626;
+}
+.panel-red > .panel-heading {
+  background-color: #631b1b;
+  border-color: #b33131;
+  color: #FFFFFF;
+}
+.panel-red .panel-footer {
+  background: #8b2626;
+  border-color: #b33131;
+  color: #FFFFFF;
+}
+.panel-red [class^="fa-"]:before,
+.panel-red [class*=" fa-"]:before {
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 5px;
+}
+.panel-red.invert .panel-body {
+  background: #8b2626;
+  color: #FFFFFF;
+}
+*/
